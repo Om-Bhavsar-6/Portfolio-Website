@@ -1,0 +1,12 @@
+﻿5cdc503 Revert "Reapply "Reapply "style: remove border from theme toggle in dock"""
+b1de9de Reapply "Reapply "style: remove border from theme toggle in dock""
+9c61ea1 Revert "Reapply "style: remove border from theme toggle in dock""
+4218456 Reapply "style: remove border from theme toggle in dock"
+0c44229 Revert "style: remove border from theme toggle in dock"
+8b0c26a style: remove border from theme toggle in dock
+46c3b29 Reapply "feat: move theme toggle into dock navigation"
+92574e5 Revert "feat: move theme toggle into dock navigation"
+b09836a feat: move theme toggle into dock navigation
+7aa852d style: swap theme toggle and time/location positions
+2927278 style: move theme toggle to top-left next to time/location
+cebc1c9 fix: rename portrait-wrapper to hero-portrait-container for Hi hover effect

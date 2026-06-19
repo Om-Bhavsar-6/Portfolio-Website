@@ -1,0 +1,19 @@
+# Backups of original files
+index_old.html
+styles_old.css
+script_old.js
+
+# Local scripts
+push.ps1
+push.bat
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environments & Node
+node_modules/
+.env
+.env.local
+.vercel/
+*.log

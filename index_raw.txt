@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Komalpreet Kaur — Data Scientist and AI Builder Portfolio.">
+  <title>Komalpreet Kaur | Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>âœ³</text></svg>">
+</head>
+<body>
+  <!-- Brand Logo -->
+  <div class="brand">
+    <div class="brand-container">
+      <span class="brand-star">âœ³</span>
+      <div class="brand-text">
+        <span class="brand-name">Komalpreet Kaur</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========== BOTTOM DOCK NAVIGATION ========== -->
+  <nav class="dock-nav" id="dockNav">
+    <a href="#about" class="dock-item" data-tooltip="About">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+        <circle cx="12" cy="7" r="4"/>
+      </svg>
+    </a>
+    <a href="#projects" class="dock-item" data-tooltip="Projects">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/>
+        <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/>
+      </svg>
+    </a>
+    <a href="#hero" class="dock-item dock-home" data-tooltip="Home">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+    </a>
+    <a href="#skills" class="dock-item" data-tooltip="Skills">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/>
+        <polyline points="14 2 14 8 20 8"/>
+        <line x1="16" y1="13" x2="8" y2="13"/>
+        <line x1="16" y1="17" x2="8" y2="17"/>
+      </svg>
+    </a>
+    <a href="#contact" class="dock-item" data-tooltip="Contact">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+        <circle cx="18" cy="5" r="3"/>
+        <circle cx="6" cy="12" r="3"/>
+        <circle cx="18" cy="19" r="3"/>
+        <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/>
+        <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+      </svg>
+    </a>
+  </nav>
+
+  <!-- ========== HERO SECTION ========== -->
+  <section class="hero" id="hero">
+    <!-- Hero image -->
+
+    <!-- Hero image -->
+    <div class="hero-image reveal">
+      <img src="Komalsohal.png" alt="Komalpreet Kaur">
+    </div>
+
+    <!-- Bottom headings: FRONTEND left, DEVELOPER right -->
+
+    <!-- Main Hero Text -->
+    <div class="hero-main-content">
+      <h1 class="hero-name reveal">
+        <span class="name-line">Komalpreet</span>
+        <span class="name-line">Kaur</span>
+      </h1>
+    </div>
+  </section>
+
+  <!-- ========== ABOUT SECTION ========== -->
+  <section class="about" id="about">
+    <div class="about-text reveal">
+      <p>
+        Hi! I'm <strong>Komalpreet Kaur</strong>, a Data Scientist and AI Builder from Punjab, India.
+      </p>
+      <p>
+        I build things that <strong>make sense of data</strong> and occasionally explore the boundaries of 
+        <strong>Generative AI</strong>.
+      </p>
+      <p>
+        For the past few years, I've been mixing design, code, and way too many
+        browser tabs to craft websites that actually make people stop scrolling.
+      </p>
+      <p>
+        I'm a big fan of <strong>animations</strong> that surprise you, <strong>small details</strong> that make
+        you smile, and projects that look like they've had more love than sleep
+        put into them.
+      </p>
+      <p>
+        Got an idea? Let's build something fun before the internet gets boring.
+      </p>
+    </div>
+  </section>
+
+  <!-- ========== WORKS SECTION ========== -->
+  <section class="works" id="projects">
+    <h2 class="works-header reveal">WORKS</h2>
+    <div class="works-list">
+      <a class="work-item reveal" href="#" data-preview="1">
+        <span class="work-name">Konvertisseur</span>
+        <span class="work-tech">Rust, React</span>
+      </a>
+      <a class="work-item reveal" href="#" data-preview="2">
+        <span class="work-name">Keske-c</span>
+        <span class="work-tech">Rust, React, Powershell</span>
+      </a>
+      <a class="work-item reveal" href="#" data-preview="3">
+        <span class="work-name">Raptest</span>
+        <span class="work-tech">React Native, Expo, Supabase</span>
+      </a>
+      <a class="work-item reveal" href="#" data-preview="4">
+        <span class="work-name">Zenifine</span>
+        <span class="work-tech">React</span>
+      </a>
+      <a class="work-item reveal" href="#" data-preview="5">
+        <span class="work-name">FC 7IETE</span>
+        <span class="work-tech">Next.js</span>
+      </a>
+    </div>
+  </section>
+
+  <!-- Hover Preview Image -->
+  <div class="work-preview" id="workPreview">
+    <img src="" alt="Project preview" id="previewImage">
+  </div>
+
+  <!-- ========== SKILLS (MY STACK) SECTION ========== -->
+  <section class="stack" id="skills">
+    <h2 class="works-header">MY STACK</h2>
+    
+    <div class="magic-cat" id="magicCat" title="Pet the cat!">
+      <svg viewBox="0 0 100 100" width="120" height="120" xmlns="http://www.w3.org/1000/svg">
+        <!-- Tail (animated) -->
+        <path class="cat-tail" d="M 50 85 C 75 90, 95 75, 85 55" 
+              fill="none" stroke="currentColor" stroke-width="7" stroke-linecap="round" />
+        <!-- Symmetrical Body -->
+        <path d="M 50 95 C 30 95, 25 65, 40 50 L 60 50 C 75 65, 70 95, 50 95 Z" fill="currentColor" />
+        <!-- Front-facing Head -->
+        <path d="M 50 55 C 40 55, 35 45, 35 35 C 35 25, 42 15, 50 15 C 58 15, 65 25, 65 35 C 65 45, 60 55, 50 55 Z" fill="currentColor" />
+        <!-- Symmetric Ears -->
+        <path d="M 40 22 L 35 5 L 48 18 Z" fill="currentColor" />
+        <path d="M 60 22 L 65 5 L 52 18 Z" fill="currentColor" />
+      </svg>
+    </div>
+
+    <div class="stack-grid">
+      <!-- Row 1 -->
+      <div class="stack-row row-even">
+        <div class="stack-card">
+          <div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/cplusplus/cplusplus-original.svg" alt="C++"></div>
+          <div class="stack-info"><h3>Core Languages</h3><p>C++, Python, JavaScript, TypeScript, Java</p></div>
+        </div>
+        <div class="stack-card">
+          <div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pytorch/pytorch-original.svg" alt="PyTorch"></div>
+          <div class="stack-info"><h3>Machine Learning</h3><p>PyTorch, Scikit-learn</p></div>
+        </div>
+      </div>
+      <!-- Row 2 -->
+      <div class="stack-row row-odd">
+        <div class="stack-card">
+          <div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jupyter/jupyter-original.svg" alt="Jupyter"></div>
+          <div class="stack-info"><h3>LLMs & GenAI</h3><p>LangChain, Hugging Face, OpenAI APIs</p></div>
+        </div>
+        <div class="stack-card">
+          <div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mongodb/mongodb-original.svg" alt="MongoDB"></div>
+          <div class="stack-info"><h3>Retrieval Systems</h3><p>Vector/Graph RAG, FAISS, ChromaDB</p></div>
+        </div>
+      </div>
+      <!-- Row 3 -->
+      <div class="stack-row row-even">
+        <div class="stack-card">
+          <div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/opencv/opencv-original.svg" alt="OpenCV"></div>
+          <div class="stack-info"><h3>Computer Vision</h3><p>OpenCV, Vision Transformers, CNNs</p></div>
+        </div>
+        <div class="stack-card">
+          <div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/fastapi/fastapi-original.svg" alt="FastAPI"></div>
+          <div class="stack-info"><h3>Model Deployment</h3><p>FastAPI, REST APIs</p></div>
+        </div>
+      </div>
+      <!-- Row 4 -->
+      <div class="stack-row row-odd">
+        <div class="stack-card">
+          <div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" alt="Git"></div>
+          <div class="stack-info"><h3>Tools & DevOps</h3><p>Git, GitHub, Docker, Linux, Bash</p></div>
+        </div>
+        <div class="stack-card">
+          <div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/pandas/pandas-original.svg" alt="Pandas"></div>
+          <div class="stack-info"><h3>Data Processing</h3><p>Pandas, NumPy</p></div>
+        </div>
+      </div>
+      <!-- Row 5 -->
+      <div class="stack-row row-even">
+        <div class="stack-card">
+          <div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/amazonwebservices/amazonwebservices-plain-wordmark.svg" alt="AWS"></div>
+          <div class="stack-info"><h3>Cloud & Serving</h3><p>AWS, Hugging Face Spaces</p></div>
+        </div>
+        <div class="stack-card">
+          <div class="icon-wrap"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original.svg" alt="Databases"></div>
+          <div class="stack-info"><h3>Databases</h3><p>ChromaDB, Neo4j, MySQL, SQLite, PostgreSQL, MongoDB</p></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Magic section removed per user request -->
+
+  <!-- ========== CONTACT / FOOTER ========== -->
+  <section class="contact" id="contact">
+    <div class="contact-inner">
+      <div class="contact-top">
+        <div>
+          <h3 class="contact-question reveal">
+            What if we worked <strong>together</strong> ?
+          </h3>
+        </div>
+        <div class="contact-socials reveal">
+          <a href="https://www.linkedin.com/in/komalpreetkaur-k/" target="_blank" rel="noopener">Linkedin</a>
+          <a href="https://github.com/Komalpreet2809" target="_blank" rel="noopener">Github</a>
+          <a href="https://x.com/komalpreet2809" target="_blank" rel="noopener">X</a>
+          <a href="https://leetcode.com/u/komalpreet2809/" target="_blank" rel="noopener">Leetcode</a>
+        </div>
+      </div>
+
+      <div class="contact-middle reveal">
+        <p class="contact-message">
+          That's it, you've reached the end of my portfolio. <strong>Thanks for visiting :)</strong><br>
+          If you enjoyed the journey, let's make the sequel togetherâ€”whether it's a
+          project or just a chat about your favorite Book.
+        </p>
+
+        <div class="contact-email-row">
+          <a href="mailto:kaurkomalpreetsohal@gmail.com" class="contact-email">kaurkomalpreetsohal@gmail.com</a>
+        </div>
+      </div>
+
+      <span class="contact-edition">2026 Â© Edition</span>
+
+      <div class="contact-giant">GETINTOUCH!</div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
